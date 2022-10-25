@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+/*Este siguiente ejemplo de CSS dentro HTML, NO ES LA MEJOR FORMA DE HACERLO, funje como ejemplo.*/
+    <style>
+       /*Cascade Style Sheet --> CSS. Inciamos con un selector que inicia con un "*" y esto significa que estos parametros se vana aplicar en toda la pagina*/
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+        }
+/* Lo que se encuentre dentro del "body" se verá afectado por esta sección*/
+        body{
+            background-color: magenta;
+        }
+/*Todo lo encontrado en este sección que afectará los parrafos, en sección "p"*/
+        p{
+            color: red;
+            text-align: center;
+        }
+/*Con este simbolo de numeral o gato, se selecciona un objeto especifico, utilizando el "ID" del objeto que deseamos especificar o modificar sus propiedades.*/
+        #titulo{
+            color: rgb(200,150,220);
+            text-align: right;
+        }
+/*En esta esta linea se muetra el ".class" es simililara al anterior, pero ahora lo que se desae modificar y/o especificar son las clases(class), respetando las jerarquias, en este caso las los ID's tienen mayor jerarquia*/
+        .izquierda{
+            color: green;
+        }
+/*Las clases con la etiqueta "p" sin las que se ven afectas, unicamente, con estas lineas*/
+        p.izquierda{
+            text-decoration: underline;
+            text-align: left;
+        }
+
+        .contraste{
+            background-color: black;
+        }
+/* Se modifican los parametros, estilos, tamaños,etc de los elementos que desemos o necesitemos*/
+        h1, h2, p{
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serf';
+        }
+         .contraste, .izquierda{
+            border-color: blue;
+             border-width: 2px;
+       }
+        /* Comentario CSS */
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Header simple</h1>
+    <h2 id="titulo" class="izquierda">Header con id Titulo</h2>
+    <p>Parrafo simple</p>
+
+    <h3 class="izquierda">Prueba clase Header 3</h3>
+    <p class="izquierda">Prueba clase parrafo</p>
+    <h3 class="izquierda contraste">Prueba multiples clases parrafo</h3>
+    
+</body>
+</html>
