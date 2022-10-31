@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textos CSS</title>
+    <link rel="stylesheet" href="./4.-CSSTextos">
+</head>
+<body>
+    <p class="izquierda">Parrafo Izquierda.Este es el lado que inicialmente podemos ver, que no estoy diciendo algo interesante, sin embargo este parrafo tenia que verse la diferencia con los siguientes.</p>
+    <p class="derecha">Parrafo Derecha.Este parrafo se ve alineado al lado derecho, que no se ve mal, pero puede ser usado para diferencial la información de talves la información principal en el parrafo izquierdo.</p>
+    <p class="centrado">Parrafo Centrado. Este parrafo esta centrado, este tipo de texto, en mi opinion, tiene un acomodo que lo hace mas llamativo y que presenta un claro diferenciador con textos mas convencionales, talvez usado para acentuar un poema o alguna otra información adicional o una cita.</p>
+    <p class="justificado">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum molestiae, adipisci voluptatem ex quod tenetur quia praesentium necessitatibus doloribus qui repudiandae nihil exercitationem dolorem hic cum commodi beatae earum assumenda". Encontramos este texto alguna otra lengua, no conocida por mi, pero que claramente(No tan claramente) esta cifrada.</p>
+    <p class="alReves">Parrafo al reves. Parrafo escrito de izquierda a derecha, no de cabeza ni de manera convencional, sino "al revez".</p>
+    <p class="decoradoOverline">Parrafo Overline, Parrafo con una linea encima que podria ser usada con algun tipo de testado o negado, segun sea el contexto.</p>
+    <p class="decoradoLineThrough">Parrafo Line Through. Un parrafo que podriamos llamar tachado, que si lo llegamos a ver en una lista, podemos pensara que es alguna cosa ya no disponible o que ya no tiene relevancia.</p>
+    <p class="decoradoUnderline">Parrafo Underline. Este se encuentra subrrayado, con el fin de señalar o tener algún tipo de atencion extra si esd necesario, en comparación del texto principal.</p>
+    <p class="decoradoCombinado">Parrafo decorado completo</p>
+    <p class="negritas">Parrafo Negritas. Texto claramente sobresaliente, sin embargo este texto, como el siguiente, son una misma variable, con diferentes valores.</p>
+    <p class="ligeras"> Parrafo ligeras. Este parrafo, tambien se ve sobresaliente en comparación del texto principal.</p>
+
+    <a href="#" class="link">Link a tal lugar</a>
+</body>
+</html>
